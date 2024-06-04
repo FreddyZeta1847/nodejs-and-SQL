@@ -1,0 +1,160 @@
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 100%;
+  margin: 20px, 20px;
+  margin-bottom: 20px;
+  background-color:  #dbdbdb;
+  height: 80px;
+}
+
+/* Stile per l'immagine del logo */
+.title-container .logo {
+  width: 150px; /* Larghezza dell'immagine */
+  height: auto; /* Altezza automatica per mantenere le proporzioni */
+  margin-right: 50px; /* Spazio tra l'immagine e il titolo */
+  margin-left: 10px;
+}
+
+
+/* Stile per l'elemento h1 con id "Title" */
+#Title {
+    color: black; /* Colore del testo */
+    font-family: 'Arial', sans-serif; /* Font del testo */
+    font-size: 30px; /* Dimensione del testo */
+    font-weight: bold; /* Peso del font */
+    text-align: left; /* Allineamento del testo */
+    padding: 10px; /* Padding */
+    border-radius: 8px; /* Angoli arrotondati */
+  }
+  
+  /* Stile per i label */
+  label {
+    color: rgb(1, 1, 48); /* Colore del testo */
+    font-weight: bold; /* Peso del font */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Stile per i bottoni */
+  button {
+    background-color: green; /* Colore di sfondo */
+    color: white; /* Colore del testo */
+    border: none; /* Nessun bordo */
+    padding: 10px 20px; /* Padding */
+    cursor: pointer; /* Cambia il cursore al passaggio */
+    border-radius: 5px; /* Angoli arrotondati */
+  }
+  
+  button:hover {
+    background-color: darkgreen; /* Colore di sfondo al passaggio del mouse */
+  }
+  
+  /* Stile per il form */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  form input {
+    margin: 5px 0; /* Margine */
+    padding: 8px; /* Padding */
+    font-size: 16px; /* Dimensione del font */
+  }
+  
+  form button {
+    margin-top: 10px; /* Margine */
+  }
+  
+  /* Stile per il tavolo */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+.deleteButton {
+    background-color: rgb(255, 50, 50);
+}
+
+.deleteButton:hover {
+    cursor: pointer;
+    background-color: rgb(141, 9, 9) ;
+}
+
+.updateButton {
+    background-color: rgb(80, 80, 255);
+}
+
+.updateButton:hover{
+    background-color: rgb(3, 3, 138) 
+}
+
+#registrationForm {
+    margin-bottom: 30px;
+}
+
+.filtraggio-nomi {
+    float: left;
+    margin-bottom: 20px;
+}
+
+.filtraggio-nomi input{
+    font-size: 16px;
+    padding: 8px; /* Padding */
+}
+
+.filtraggio-cognomi input{
+    font-size: 16px;
+    padding: 8px; /* Padding */
+}
+
+.filtraggio-cognomi {
+    float: left;
+    margin-left: 20px;
+}
+
+.filtraggio {
+    font-size: 20px;
+}
+
+.modal-label {
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.pages-buttons {
+  margin-top: 20px;
+  background-color: #dbdbdb;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  padding: 5px 15px; /* Padding */
+}
+
+.pages-buttons:hover {
+  background-color: #a8a6a6;
+}
+.pages-regolation {
+  width: 100%;
+  text-align: center;
+}

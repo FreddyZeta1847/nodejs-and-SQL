@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porini</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title-container">
+        <img src="Images/logo-DGS-porini.png" alt="Logo" class="logo">
+        <h1 id="Title">Gestione Dipendenti PORINI</h1>
+    </div>
+    <form id="registrationForm">
+        <input type="text" id="nome" name="nome" placeholder="Nome" required>
+        <input type="text" id="cognome" name="cognome" placeholder="Cognome" required>
+        <input type="email" id="email" name="email" placeholder="Email" required>
+        <input type="number" id="salario" name="salario" placeholder="Salario" required>
+        <button type="submit">Aggiungi Dipendente</button>
+    </form>
+
+<!--aggiungere una text field dove quando inizi ad inserire il display del menu a discesa diventa visibile e man mano che l'utente scrive il nome, il menu a discesa verrà visualizzato con i nomi filtrati da ciò che ha inserito l'utente, quando quest'ultimo smette di scrovere allora sparisce il menu a compasa-->
+
+    <br>
+    <div class="filtraggio">
+        <div class="filtraggio-nomi">
+            <label for="filtro-nomi">Filtra Per Nomi:</label>
+            <input type="text" id="filtro-nomi" placeholder="Inserisci nome...">
+        </div>
+        
+        <div class="filtraggio-cognomi">
+            <label for="filtro-cognome">Filtra Per Cognomi:</label>
+            <input type="text" id="filtro-cognome" placeholder="Inserisci cognome...">
+        </div>
+    </div>
+    
+    <div id="result"></div>
+
+    <table id="employeeTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Cognome</th>
+                <th>Email</th>
+                <th>Salario</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Dati degli impiegati -->
+        </tbody>
+    </table>
+
+    <br>
+    <div class="pages-regolation">
+        <button id="decrement-button" class="pages-buttons">-</button>
+        <input type="number" id="pages" placeholder="pagine">
+        <button id="increment-button" class="pages-buttons">+</button>
+        <button id="buttonPages" class="pages-buttons">Invia</button>
+    </div>
+    
+    <script src="client.js"></script>
+</body>
+</html>
